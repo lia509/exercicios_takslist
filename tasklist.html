@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="assets/js/tasklist.js"></script>
     <link rel="stylesheet" href="assets/css/tasklist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <main>
-        <div>
-            <form>
-                <input type="text" id="inputTasks" placeholder="Digite uma nova tarefa">
-            </form>
-            <button></button>
+        <div id="geral">
+
+            <div id="form">
+                <div class="input_button" id="input">
+                    <input type="text" id="inputTasks" placeholder="Digite uma nova tarefa">
+                </div>
+
+                <div class="input_button">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+
+            <div id="card">
+                <p id="task"></p>
+
+                <div id="check">
+                    <button onclick=""><i class="fa-solid fa-check"></i></button>
+                </div>
+
+                <div id="trash">
+                    <button onclick=""><i class="fa-solid fa-trash"></i></button>
+                </div>
+                
+                <div id="pencil">
+                    <button onclick=""><i class="fa-solid fa-pencil"></i></button>
+                </div>
+            </div>
         </div>
+
     </main>
 </body>
+
 </html>

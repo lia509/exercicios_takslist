@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* 18af4d
+1ac54f */
+#inputTasks{
+    background-color: #3f3f3f;
+    
+    border: 1px;
+    width: 90%;
+    border-radius: 8px;
+    outline: none;
+    color: whitesmoke;
+    padding: 4.5%;
+    
+
+}
+
+#input{
+    width: 90%;
+    padding: 1.5%;
+    margin-right: 1%;
+
+}
+
+button{
+    background-color: transparent;
+    border: 1px;
+    border-radius: 8px;
+    outline: none;
+    color: whitesmoke;
+    padding: 5%;
+
+}
+
+.input_button{
+    background-color: #3f3f3f;
+    border: 1px;
+    border-radius: 8px;
+    outline: none;
+    color: whitesmoke;
+    padding: 5%;
+
+}
+
+#geral{
+    max-width: 700px;
+    width: 200%;
+    padding: 10%;
+    border: 1px solid ;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    margin: 15%;
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#form {
+    max-width: 700px;
+    width: 200%;
+    padding: 10%;
+    border: 1px;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    margin: 15%;
+    margin-top: 2%;
+    margin-right: 10%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#card{
+    max-width: 630px;
+    width: 200%;
+    padding: 2%;
+    border: 1px  ;
+    border-radius: 8px;
+    background-color: #3f3f3f;
+    margin: 15%;
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#icons{
+    background-color:#3f3f3f;
+    border: 1px;
+    border-radius: 8px;
+    outline: none;
+    color: whitesmoke;
+    padding: 5%;
+    
+
+}
+
+#check{
+    background-color: #181818;
+    border-radius: 40%;
+    padding: 3%;
+    margin-left: 40%;
+}
+
+#check:hover{
+    cursor: pointer;
+    background-color: #0bd015;
+    transition: 0.5s;
+}
+
+
+#trash{
+    background-color: rgb(203, 37, 37);
+    border-radius: 40%;
+    padding: 3%;
+}
+
+#pencil{
+    background-color: #0069d9;
+    border-radius: 40%;
+    padding: 3%;
+}
